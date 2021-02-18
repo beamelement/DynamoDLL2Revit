@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
 using System.Windows.Forms;
+using System.IO;
 
 namespace Dynamo2Revit
 {
@@ -43,11 +44,20 @@ namespace Dynamo2Revit
 
             d.InitialDirectory = @"C:\Users\zyx\Desktop\"; //默认路径
             d.Filter = "dynamo文件(*.dyn)|*.dyn";//要选择的文件
-            //d.Filter = "所有文件(*.*)|*.*";
+
+
+
+
+
 
             if (d.ShowDialog()== System.Windows.Forms.DialogResult.OK)
             {
-                this.fileName = d.FileName;
+
+                //新路径要在这里写一下
+                string NewPath = @"C:\Users\zyx\Desktop" + @"\" + d.SafeFileName;
+                File.Move(d.FileName, NewPath);//把文件移动到桌面
+
+                this.fileName = NewPath;
             }
 
         }

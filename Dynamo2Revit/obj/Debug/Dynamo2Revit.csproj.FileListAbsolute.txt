@@ -125,4 +125,3 @@ C:\Users\zyx\Desktop\2RevitArcBridge\Dynamo2Revit\Dynamo2Revit\obj\Debug\Dynamo2
 C:\Users\zyx\Desktop\2RevitArcBridge\Dynamo2Revit\Dynamo2Revit\obj\Debug\Dynamo2Revit.csproj.CopyComplete
 C:\Users\zyx\Desktop\2RevitArcBridge\Dynamo2Revit\Dynamo2Revit\obj\Debug\Dynamo2Revit.dll
 C:\Users\zyx\Desktop\2RevitArcBridge\Dynamo2Revit\Dynamo2Revit\obj\Debug\Dynamo2Revit.pdb
-C:\Users\zyx\Desktop\2RevitArcBridge\Dynamo2Revit\Dynamo2Revit\obj\Debug\Dynamo2Revit.csprojAssemblyReference.cache
