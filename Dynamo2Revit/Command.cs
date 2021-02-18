@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.Windows;
 using Autodesk.Revit.ApplicationServices;
 using Autodesk.Revit.Attributes;
 using Autodesk.Revit.DB;
@@ -39,7 +39,7 @@ namespace Dynamo2Revit
                     //把选择进来的文件的路径输出一下
                     Journal_Dynamo_Path =  window1.fileName;
 
-
+                    MessageBox.Show(Journal_Dynamo_Path);
 
                 }
 
